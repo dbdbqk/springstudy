@@ -15,11 +15,17 @@ import com.gdu.app08.domain.BoardDTO;
 */
 @Mapper
 public interface BoardMapper {
-	public List<BoardDTO> selectBoardList();
-	public BoardDTO selectBoardByNo(int boardNo);
-	public int insertBoard(BoardDTO board);
-	public int updateBoard(BoardDTO board);	
-	public int deleteBoard(int boardNo);
-	public int deleteBoardList(List<String> boardNoList);
-	public int SelectBoardCount();
+  public List<BoardDTO> selectBoardList();
+
+  public BoardDTO selectBoardByNo(int boardNo);
+
+  public int insertBoard(BoardDTO board);
+
+  public int updateBoard(BoardDTO board);
+
+  public int deleteBoard(int boardNo);
+
+  public int deleteBoardList(List<String> boardNoList);
+
+  public int SelectBoardCount();
 }

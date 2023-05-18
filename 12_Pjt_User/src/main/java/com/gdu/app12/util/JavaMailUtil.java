@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 */
 @PropertySource(value={"classpath:application.properties"})
 @Component
-public class javaMailUtil {
+public class JavaMailUtil {
 
 	@Autowired
 	private Environment env;
